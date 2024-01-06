@@ -3,6 +3,7 @@
 body{
     background-color: #272B30;
     font-family: 'Comic Neue', cursive;
+
 }
 .bg-img{
     background-image: url('../images/wraper.png');
@@ -37,6 +38,7 @@ body{
     background-color: #3A497B;
     border-radius: 20px;
     color: white;
+
    
 }
 
@@ -69,12 +71,17 @@ body{
 /* CARD SECTION */
 .card{
     border: 2px solid #202328;
-    /* min-height: 20px; */
+   /* min-height:470; */
     transition: all 1s;
 
 }
 .card-footer{
     border-top: 2px solid #202328;
+
+}
+.card-body{
+    height: 130px;
+    overflow: hidden;
 
 }
 .card-title{
